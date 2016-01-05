@@ -21,7 +21,7 @@ Simple Javascript Ajax
 
 ##Sending Files
 
-HTML Form
+HTML
 ```
 <input type="file" id="files" multiple="true">
 ```
