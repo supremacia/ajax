@@ -9,7 +9,7 @@ Simple Javascript Ajax
   AJAX.set.data({key:'value'});
   
   //OR
-  AJAX = new lib.ajax('http://site.com', {key:'value'}, 'get');
+  AJAX = new lib.ajax('http://site.com', 'GET', {key:'value'});
   
   AJAX.set.complete(function(data){
     var e = JSON.parse(data); //if data is Json
